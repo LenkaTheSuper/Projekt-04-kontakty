@@ -9,3 +9,42 @@ body {
 h1 {
 	text-align: center;
 }
+
+.tym {
+	display: block;
+	margin: 20px;
+}
+
+.osoba {
+	border: 1px solid rgb(177, 175, 175);
+	border-radius: 5%;
+	width: 100%;
+	text-align: center;
+	margin: 5px;
+	float: left;
+}
+
+@media (min-width: 500px) {
+	.osoba {
+		width: 48%;
+		display: flex;
+	}
+}
+
+@media (min-width: 1000px) {
+	.osoba {
+		width: 22%;
+		display: block;
+	}
+}
+
+.foto img {
+	border-radius: 50%;
+	text-align: center;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.popis {
+	padding: 0 20px;
+}
